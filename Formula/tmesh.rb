@@ -1,26 +1,26 @@
 class Tmesh < Formula
   desc "TMesh private device cloud CLI and runtime"
   homepage "https://github.com/tmesh-network/tmesh"
-  version "0.1.6"
+  version "0.1.7"
   license "Proprietary"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://downloads.tmesh.dev/releases/v0.1.6/tmesh_v0.1.6_darwin_arm64.tar.gz"
-      sha256 "61de7a89bfb12760a1882a269f5236268b98ad5caa5345bb90cb83e516ae2783"
+      url "https://downloads.tmesh.dev/releases/v0.1.7/tmesh_v0.1.7_darwin_arm64.tar.gz"
+      sha256 "c10885115ca3a59b9781660b6e70e29b3404198e115d446dbf5c03637fb20632"
     else
-      url "https://downloads.tmesh.dev/releases/v0.1.6/tmesh_v0.1.6_darwin_amd64.tar.gz"
-      sha256 "defb8898e209ac9f407aa0f4e1426d40ca043e7b219c9a570d112d237380858c"
+      url "https://downloads.tmesh.dev/releases/v0.1.7/tmesh_v0.1.7_darwin_amd64.tar.gz"
+      sha256 "bac1f8e05df9772ad9f0d28aae26c0da728828c520f181099812a46ea351748d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://downloads.tmesh.dev/releases/v0.1.6/tmesh_v0.1.6_linux_arm64.tar.gz"
-      sha256 "9a9fb0bb772cf1f4e482e74d207cc45bc2a3da5b47529b31bc5336f61302bfb4"
+      url "https://downloads.tmesh.dev/releases/v0.1.7/tmesh_v0.1.7_linux_arm64.tar.gz"
+      sha256 "ee88b572f447f9620d4b6b70ea7ace5657f2b16d23fb99f962d5e105f12228b7"
     else
-      url "https://downloads.tmesh.dev/releases/v0.1.6/tmesh_v0.1.6_linux_amd64.tar.gz"
-      sha256 "19562176534a3a3193eb3e3d68c7d03158204c466afe3d383b82d476dd5d0565"
+      url "https://downloads.tmesh.dev/releases/v0.1.7/tmesh_v0.1.7_linux_amd64.tar.gz"
+      sha256 "d531c77f8de12471b76c416a269ffeed5f52984d02d068399aa6744903a9718a"
     end
   end
 
